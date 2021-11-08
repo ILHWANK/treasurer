@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Player.cs">
+    <Files>
+      <File FileName="Assets/Player.cs" Line="25" Column="9" />
+      <File FileName="Assets/Rotator.cs" Line="11" Column="37" />
+      <File FileName="Assets/ItemBox.cs" Line="57" Column="31" />
+      <File FileName="Assets/GameManager.cs" Line="25" Column="46" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="New Unity Project" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Player.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5a4a0890-f16e-41fb-90ad-d735a35d5235" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
