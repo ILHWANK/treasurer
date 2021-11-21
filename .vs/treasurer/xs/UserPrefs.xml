@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{9584B5D5-12D0-E337-2FA7-99EB5A033076}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ReStart.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CameraCh.cs">
     <Files>
       <File FileName="Library/PackageCache/com.unity.ide.visualstudio@2.0.11/Editor/VisualStudioIntegration.cs" Line="149" Column="1" />
-      <File FileName="Assets/JoyStick.cs" Line="51" Column="1" />
-      <File FileName="Assets/Player.cs" Line="1" Column="1" />
+      <File FileName="Assets/JoyStick.cs" Line="33" Column="17" />
+      <File FileName="Assets/Player.cs" Line="9" Column="5" />
       <File FileName="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/StandaloneInputModule.cs" Line="5" Column="5" />
-      <File FileName="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" Line="247" Column="30" />
-      <File FileName="Assets/GameManager.cs" Line="23" Column="44" />
-      <File FileName="Assets/ReStart.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameManager.cs" Line="25" Column="49" />
+      <File FileName="Assets/ReStart.cs" Line="11" Column="30" />
+      <File FileName="Assets/CameraCh.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

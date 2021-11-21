@@ -59,6 +59,7 @@
     <Compile Include="Assets/GameManager.cs" />
     <Compile Include="Assets/Player.cs" />
     <Compile Include="Assets/ReStart.cs" />
+    <Compile Include="Assets/CameraCh.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

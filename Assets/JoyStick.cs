@@ -12,6 +12,7 @@ public class JoyStick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
 
     public Transform targetPlayer;                    // 움직일 타겟
 
+    public GameManager myGameManager;
     Vector2 stickVector;                            // 스틱의 움직인 벡터 값
     Vector3 smoothVelocity;                         // SmoothDamp 3번째 인자값
 
@@ -22,7 +23,7 @@ public class JoyStick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
     float inverseSmoothSpeed = 0f;                  // 곱연산을 하기위한 역수
     float bgRadius = 0f;                            // 조이스틱 배경 이미지의 반지름
     float stickDistRatio = 0f;                      // 스틱이 움직인 거리 비율
-    float moveSpeed = 5f;                           // 타겟의 이동 속도
+    float moveSpeed = 7f;                           // 타겟의 이동 속도
     float rotSpeed = 10f;                           // 타겟의 회전 속도
 
     bool isReturn = false;                          // 스틱이 돌아오는 함수 실행중인지 판단하는 변수
@@ -38,6 +39,11 @@ public class JoyStick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
     // Update is called once per frame
     void Update()
     {
+        if (myGameManager.isGameWin.Equals(true))
+        {
+            return;
+        }
+
         MoveAndRotate();
     }
 
