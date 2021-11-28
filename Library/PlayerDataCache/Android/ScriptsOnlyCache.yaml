@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - CameraCh
     - GameManager
     - ItemBox
     - JoyStick
@@ -90,6 +91,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4060}
     - Class: 114
       Script: {instanceID: 4250}
+    - Class: 114
+      Script: {instanceID: 23324}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -423,7 +426,7 @@ ScriptsOnlyBuild:
     className: AudioPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: df76fd826212562da852ff3762c8158a
+      Hash: d627d14d43a00a56ce563c1d0174002a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -565,8 +568,14 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: d042d4d919678e0356332b4c45ebeca6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraCh
   platform: 13
   scenePathNames:
   - Assets/treasurer.unity
   playerPath: "/Users/gim-ilhwan/Documents/Unity/\uAC8C\uC784 \uBAA8\uC6C0/Android
-    apk/Treasurer_1.0.7.apk"
+    apk/Treasurer_1.0.9.apk"

@@ -110,7 +110,7 @@
 62-->/Users/gim-ilhwan/Documents/Unity/treasurer/treasurer/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:17:5-101
 63            android:name="unity.build-id"
 63-->/Users/gim-ilhwan/Documents/Unity/treasurer/treasurer/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:17:16-45
-64            android:value="7df9916b-419b-4c17-bc5a-9c396cfba6b4" />
+64            android:value="f37c9aac-83c1-47a4-b80b-b7e9357e4b20" />
 64-->/Users/gim-ilhwan/Documents/Unity/treasurer/treasurer/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:17:46-98
 65    </application>
 66
