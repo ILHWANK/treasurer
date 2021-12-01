@@ -1,0 +1,4 @@
+#Wed Dec 01 20:55:22 KST 2021
+base.0=/Users/gim-ilhwan/Documents/Unity/treasurer/treasurer/Temp/gradleOut/launcher/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

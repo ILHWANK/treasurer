@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - GameManager
     - ItemBox
     - JoyStick
+    - MenuButton
     - Player
     - ReStart
     - Rotator
@@ -84,15 +85,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2752}
     - Class: 114
-      Script: {instanceID: 2834}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 3322}
+      Script: {instanceID: 2836}
     - Class: 114
-      Script: {instanceID: 4060}
+      Script: {instanceID: 3324}
     - Class: 114
-      Script: {instanceID: 4250}
+      Script: {instanceID: 4062}
     - Class: 114
-      Script: {instanceID: 23324}
+      Script: {instanceID: 4252}
+    - Class: 114
+      Script: {instanceID: 16248}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -328,6 +331,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d042d4d919678e0356332b4c45ebeca6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraCh
   - hash:
       serializedVersion: 2
       Hash: 8e6ceabfd38a184413d69b7db56c89cc
@@ -570,12 +579,12 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: d042d4d919678e0356332b4c45ebeca6
+      Hash: 3b3fbaaddc9ef5d6c5fb4287dff23a2e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: CameraCh
+    className: MenuButton
   platform: 13
   scenePathNames:
   - Assets/treasurer.unity
   playerPath: "/Users/gim-ilhwan/Documents/Unity/\uAC8C\uC784 \uBAA8\uC6C0/Android
-    apk/Treasurer_1.0.9.apk"
+    apk/Treasurer_1.0.10.apk"

@@ -56,10 +56,11 @@
     <Compile Include="Assets/JoyStick.cs" />
     <Compile Include="Assets/ItemBox.cs" />
     <Compile Include="Assets/Rotator.cs" />
+    <Compile Include="Assets/CameraCh.cs" />
     <Compile Include="Assets/GameManager.cs" />
     <Compile Include="Assets/Player.cs" />
     <Compile Include="Assets/ReStart.cs" />
-    <Compile Include="Assets/CameraCh.cs" />
+    <Compile Include="Assets/MenuButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
