@@ -9,6 +9,7 @@ ScriptsOnlyBuild:
     - Player
     - ReStart
     - Rotator
+    - SpeedUp
     Unity.CollabProxy.Editor.dll:
     - Unity.Cloud.Collaborate.UserInterface.CollaborateWindow
     Unity.Rider.Editor.dll:
@@ -83,19 +84,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2568}
     - Class: 114
-      Script: {instanceID: 2752}
+      Script: {instanceID: 2650}
     - Class: 114
-      Script: {instanceID: 2782}
+      Script: {instanceID: 2754}
     - Class: 114
-      Script: {instanceID: 2836}
+      Script: {instanceID: 2784}
     - Class: 114
-      Script: {instanceID: 3324}
+      Script: {instanceID: 2838}
     - Class: 114
-      Script: {instanceID: 4062}
+      Script: {instanceID: 3326}
     - Class: 114
-      Script: {instanceID: 4252}
+      Script: {instanceID: 4064}
     - Class: 114
-      Script: {instanceID: 16248}
+      Script: {instanceID: 4254}
+    - Class: 114
+      Script: {instanceID: 16246}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -307,6 +310,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 3b3fbaaddc9ef5d6c5fb4287dff23a2e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MenuButton
   - hash:
       serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
@@ -579,12 +588,12 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 3b3fbaaddc9ef5d6c5fb4287dff23a2e
+      Hash: c42acf4c1b486a2ee3bd69dfd47725f0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: MenuButton
+    className: SpeedUp
   platform: 13
   scenePathNames:
   - Assets/treasurer.unity
   playerPath: "/Users/gim-ilhwan/Documents/Unity/\uAC8C\uC784 \uBAA8\uC6C0/Android
-    apk/Treasurer_1.0.10.apk"
+    apk/Treasurer_1.0.13.apk"

@@ -1,19 +1,17 @@
 ﻿<Properties StartupConfiguration="{9584B5D5-12D0-E337-2FA7-99EB5A033076}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MenuButton.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CameraCh.cs">
     <Files>
-      <File FileName="Library/PackageCache/com.unity.ide.visualstudio@2.0.11/Editor/VisualStudioIntegration.cs" Line="149" Column="1" />
-      <File FileName="Assets/JoyStick.cs" Line="33" Column="17" />
-      <File FileName="Assets/Player.cs" Line="9" Column="5" />
-      <File FileName="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/StandaloneInputModule.cs" Line="5" Column="5" />
-      <File FileName="Assets/GameManager.cs" Line="13" Column="1" />
-      <File FileName="Assets/ReStart.cs" Line="14" Column="1" />
-      <File FileName="Assets/CameraCh.cs" Line="22" Column="1" />
-      <File FileName="Assets/MenuButton.cs" Line="3" Column="19" />
+      <File FileName="Assets/Player.cs" Line="1" Column="1" />
+      <File FileName="Assets/JoyStick.cs" Line="28" Column="23" />
+      <File FileName="Assets/SpeedUp.cs" Line="24" Column="23" />
+      <File FileName="Assets/ReStart.cs" Line="1" Column="1" />
+      <File FileName="Assets/MenuButton.cs" Line="1" Column="1" />
+      <File FileName="Assets/CameraCh.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="treasurer" expanded="True" selected="True" />
+          <Node name="treasurer" selected="True" />
         </State>
       </Pad>
     </Pads>

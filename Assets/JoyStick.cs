@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -24,6 +25,7 @@ public class JoyStick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
     float bgRadius = 0f;                            // 조이스틱 배경 이미지의 반지름
     float stickDistRatio = 0f;                      // 스틱이 움직인 거리 비율
     float moveSpeed = 7f;                           // 타겟의 이동 속도
+    float speedUp = 5f;                             // SpeedUp 크기 (추후 변경 가능성 있어 변수로 선언 -> 아이탬 또는 기능 추가시)
     float rotSpeed = 10f;                           // 타겟의 회전 속도
 
     bool isReturn = false;                          // 스틱이 돌아오는 함수 실행중인지 판단하는 변수
@@ -39,6 +41,7 @@ public class JoyStick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
     // Update is called once per frame
     void Update()
     {
+
         if (myGameManager.isGameWin.Equals(true))
         {
             return;
@@ -51,6 +54,16 @@ public class JoyStick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
     void MoveAndRotate()
     {
         if (!canMove) return;
+
+        if(SpeedUp.speedUp_yn.Equals(true))
+        {
+            moveSpeed = 7 + speedUp;
+            Debug.Log("속도 올라감!" );
+        }
+        else
+        {
+            moveSpeed = 7;
+        }
 
         // 이동
         Vector2 normalVec = stickVector.normalized;
@@ -119,5 +132,10 @@ public class JoyStick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
         // 손 놨을 때 원래 자리로 이동
         currCoroutine = OnJoyStickReset();
         StartCoroutine(currCoroutine);
+    }
+
+    public static implicit operator JoyStick(bool v)
+    {
+        throw new NotImplementedException();
     }
 }
