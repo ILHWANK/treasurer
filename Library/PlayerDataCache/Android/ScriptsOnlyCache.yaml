@@ -14,6 +14,8 @@ ScriptsOnlyBuild:
     - Unity.Cloud.Collaborate.UserInterface.CollaborateWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.Timeline.Editor.dll:
+    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -78,27 +80,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2006}
     - Class: 114
-      Script: {instanceID: 2294}
+      Script: {instanceID: 2248}
     - Class: 114
-      Script: {instanceID: 2406}
+      Script: {instanceID: 2296}
     - Class: 114
-      Script: {instanceID: 2568}
+      Script: {instanceID: 2408}
     - Class: 114
-      Script: {instanceID: 2650}
+      Script: {instanceID: 2570}
     - Class: 114
-      Script: {instanceID: 2754}
+      Script: {instanceID: 2652}
     - Class: 114
-      Script: {instanceID: 2784}
+      Script: {instanceID: 2756}
     - Class: 114
-      Script: {instanceID: 2838}
+      Script: {instanceID: 2786}
     - Class: 114
-      Script: {instanceID: 3326}
+      Script: {instanceID: 2840}
     - Class: 114
-      Script: {instanceID: 4064}
+      Script: {instanceID: 3328}
     - Class: 114
-      Script: {instanceID: 4254}
+      Script: {instanceID: 4066}
     - Class: 114
-      Script: {instanceID: 16246}
+      Script: {instanceID: 4256}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -232,6 +234,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: c42acf4c1b486a2ee3bd69dfd47725f0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpeedUp
   - hash:
       serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
@@ -586,14 +594,8 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: c42acf4c1b486a2ee3bd69dfd47725f0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SpeedUp
   platform: 13
   scenePathNames:
   - Assets/treasurer.unity
   playerPath: "/Users/gim-ilhwan/Documents/Unity/\uAC8C\uC784 \uBAA8\uC6C0/Android
-    apk/Treasurer_1.0.13.apk"
+    apk/Treasurer_1.0.14.apk"
