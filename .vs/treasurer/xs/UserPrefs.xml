@@ -1,24 +1,27 @@
 ﻿<Properties StartupConfiguration="{9584B5D5-12D0-E337-2FA7-99EB5A033076}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CameraCh.cs">
     <Files>
-      <File FileName="Assets/Player.cs" Line="1" Column="1" />
-      <File FileName="Assets/JoyStick.cs" Line="28" Column="23" />
-      <File FileName="Assets/SpeedUp.cs" Line="24" Column="23" />
-      <File FileName="Assets/ReStart.cs" Line="1" Column="1" />
-      <File FileName="Assets/MenuButton.cs" Line="1" Column="1" />
+      <File FileName="Assets/SpeedUp.cs" Line="1" Column="1" />
+      <File FileName="Assets/Player.cs" />
+      <File FileName="Assets/JoyStick.cs" />
+      <File FileName="Assets/ReStart.cs" />
       <File FileName="Assets/CameraCh.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="treasurer" selected="True" />
+          <Node name="treasurer" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="CameraCh.cs" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ddc9ba36-650d-4be6-b517-d6ded71a77f7" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="636b5b77-6549-44d2-9dd6-2581b337da04" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
